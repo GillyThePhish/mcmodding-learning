@@ -1,0 +1,5 @@
+{
+	"variants": {
+		"normal": { "model": "mymod:simple_block_model" }
+	}
+}

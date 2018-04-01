@@ -1,0 +1,30 @@
+Symbol range map extraction starting
+Processing 7 files
+startProcessing "bio/gilly/mymod/ClientOnlyProxy.java" md5: 39a757adb00c207211b10b79ca31aaf3
+Cache Hit!
+endProcessing "bio/gilly/mymod/ClientOnlyProxy.java"
+
+startProcessing "bio/gilly/mymod/CommonProxy.java" md5: b5d33f1ee0925110fafdce9a3310be40
+Cache Hit!
+endProcessing "bio/gilly/mymod/CommonProxy.java"
+
+startProcessing "bio/gilly/mymod/DedicatedServerProxy.java" md5: d33127df4f5c48f74d9cf4fe0c2890dd
+Cache Hit!
+endProcessing "bio/gilly/mymod/DedicatedServerProxy.java"
+
+startProcessing "bio/gilly/mymod/MyMod.java" md5: 2edcf0d40297eef5dd450999a5ac7b32
+Cache Hit!
+endProcessing "bio/gilly/mymod/MyMod.java"
+
+startProcessing "bio/gilly/mymod/simpleBlock/SimpleBlock.java" md5: 9ff24bd32add76b125eb6e3639bf6c29
+Cache Hit!
+endProcessing "bio/gilly/mymod/simpleBlock/SimpleBlock.java"
+
+startProcessing "bio/gilly/mymod/simpleBlock/StartupCommon.java" md5: a5769e066e4a6406db9eca01ca8db089
+Cache Hit!
+endProcessing "bio/gilly/mymod/simpleBlock/StartupCommon.java"
+
+startProcessing "bio/gilly/mymod/simpleBlock/StartupOnlyClient.java" md5: f9367aba1af2d6803357e70d033b9d74
+Cache Hit!
+endProcessing "bio/gilly/mymod/simpleBlock/StartupOnlyClient.java"
+

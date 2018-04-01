@@ -1,0 +1,93 @@
+[13:42:20] [main/INFO]: Setting user: Player427
+[13:42:24] [main/WARN]: Skipping bad option: lastServer:
+[13:42:24] [main/INFO]: LWJGL Version: 2.9.4
+[13:42:27] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:My Mod
+[13:42:27] [main/WARN]: ResourcePack: ignored non-lowercase namespace: blockStates in /home/gilbert/Dev/Java/myMod/build/libs/modid-1.0.jar
+[13:42:28] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:42:29] [Thread-4/INFO]: Initializing LWJGL OpenAL
+[13:42:29] [Thread-4/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:42:29] [Thread-4/INFO]: OpenAL initialized.
+[13:42:29] [Sound Library Loader/INFO]: Sound engine started
+[13:42:31] [main/INFO]: Created: 512x512 textures-atlas
+[13:42:33] [main/WARN]: Skipping bad option: lastServer:
+[13:42:33] [main/INFO]: Narrator library successfully loaded
+[13:42:36] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[13:42:39] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[13:42:39] [Server thread/INFO]: Generating keypair
+[13:42:40] [Server thread/INFO]: Loaded 488 advancements
+[13:42:40] [Server thread/INFO]: Preparing start region for level 0
+[13:42:41] [Server thread/INFO]: Preparing spawn area: 38%
+[13:42:44] [Server thread/INFO]: Player427[local:E:00bbc77f] logged in with entity id 328 at (-25.60877516830956, 74.0, 251.96756280667782)
+[13:42:44] [Server thread/INFO]: Player427 joined the game
+[13:42:45] [Server thread/INFO]: Saving and pausing game...
+[13:42:45] [Server thread/INFO]: Saving chunks for level 'Testing'/overworld
+[13:42:46] [Server thread/INFO]: Saving chunks for level 'Testing'/the_nether
+[13:42:46] [Server thread/INFO]: Saving chunks for level 'Testing'/the_end
+[13:42:46] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@76065772[id=0de21b13-73b3-37ba-84f2-92c78b6712c2,name=Player427,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3188) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[13:42:46] [main/INFO]: Loaded 12 advancements
+[13:42:46] [Server thread/INFO]: Saving and pausing game...
+[13:42:46] [Server thread/INFO]: Saving chunks for level 'Testing'/overworld
+[13:42:47] [Server thread/INFO]: Saving chunks for level 'Testing'/the_nether
+[13:42:47] [Server thread/INFO]: Saving chunks for level 'Testing'/the_end
+[13:42:52] [Server thread/INFO]: Saving and pausing game...
+[13:42:52] [Server thread/INFO]: Saving chunks for level 'Testing'/overworld
+[13:42:52] [Server thread/INFO]: Saving chunks for level 'Testing'/the_nether
+[13:42:52] [Server thread/INFO]: Saving chunks for level 'Testing'/the_end
+[13:42:52] [Server thread/INFO]: Stopping server
+[13:42:52] [Server thread/INFO]: Saving players
+[13:42:52] [Server thread/INFO]: Player427 lost connection: Disconnected
+[13:42:52] [Server thread/INFO]: Player427 left the game
+[13:42:52] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[13:42:52] [Server thread/INFO]: Saving worlds
+[13:42:52] [Server thread/INFO]: Saving chunks for level 'Testing'/overworld
+[13:42:53] [Server thread/INFO]: Saving chunks for level 'Testing'/the_nether
+[13:42:53] [Server thread/INFO]: Saving chunks for level 'Testing'/the_end
+[13:42:57] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[13:42:57] [Server thread/INFO]: Generating keypair
+[13:42:57] [Server thread/INFO]: Loaded 488 advancements
+[13:42:57] [Server thread/INFO]: Preparing start region for level 0
+[13:42:58] [Server thread/INFO]: Preparing spawn area: 88%
+[13:42:58] [Server thread/INFO]: Player427[local:E:e7057be0] logged in with entity id 759 at (-25.60877516830956, 74.0, 251.96756280667782)
+[13:42:58] [Server thread/INFO]: Player427 joined the game
+[13:42:59] [Server thread/INFO]: Saving and pausing game...
+[13:42:59] [Server thread/INFO]: Saving chunks for level 'Testing'/overworld
+[13:42:59] [main/INFO]: Loaded 12 advancements
+[13:42:59] [Server thread/INFO]: Saving chunks for level 'Testing'/the_nether
+[13:42:59] [Server thread/INFO]: Saving chunks for level 'Testing'/the_end
+[13:43:07] [Server thread/INFO]: Saving and pausing game...
+[13:43:07] [Server thread/INFO]: Saving chunks for level 'Testing'/overworld
+[13:43:07] [Server thread/INFO]: Saving chunks for level 'Testing'/the_nether
+[13:43:07] [Server thread/INFO]: Saving chunks for level 'Testing'/the_end
+[13:43:07] [Server thread/INFO]: Stopping server
+[13:43:07] [Server thread/INFO]: Saving players
+[13:43:07] [Server thread/INFO]: Player427 lost connection: Disconnected
+[13:43:07] [Server thread/INFO]: Player427 left the game
+[13:43:07] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[13:43:07] [Server thread/INFO]: Saving worlds
+[13:43:07] [Server thread/INFO]: Saving chunks for level 'Testing'/overworld
+[13:43:07] [Server thread/INFO]: Saving chunks for level 'Testing'/the_nether
+[13:43:07] [Server thread/INFO]: Saving chunks for level 'Testing'/the_end
+[13:43:09] [main/INFO]: Stopping!
+[13:43:09] [main/INFO]: SoundSystem shutting down...
+[13:43:09] [main/WARN]: Author: Paul Lamb, www.paulscode.com
