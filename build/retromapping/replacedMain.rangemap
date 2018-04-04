@@ -1,7 +1,6 @@
 Symbol range map extraction starting
-Processing 7 files
-startProcessing "bio/gilly/mymod/ClientOnlyProxy.java" md5: 39a757adb00c207211b10b79ca31aaf3
-Cache Hit!
+Processing 10 files
+startProcessing "bio/gilly/mymod/ClientOnlyProxy.java" md5: a84b5dd291c4621acc0e9e7a836a37bc
 @|bio/gilly/mymod/ClientOnlyProxy.java|8|23|bio.gilly.mymod|package|bio.gilly.mymod|(file)
 Class Start: bio.gilly.mymod.ClientOnlyProxy
    @|bio/gilly/mymod/ClientOnlyProxy.java|39|54|ClientOnlyProxy|class|bio.gilly.mymod.ClientOnlyProxy
@@ -9,29 +8,34 @@ Class Start: bio.gilly.mymod.ClientOnlyProxy
    Method Start: preInit()V
       @|bio/gilly/mymod/ClientOnlyProxy.java|90|97|preInit|method|bio.gilly.mymod.CommonProxy|preInit|()V
       @|bio/gilly/mymod/ClientOnlyProxy.java|110|117|preInit|method|bio.gilly.mymod.CommonProxy|preInit|()V
-      @|bio/gilly/mymod/ClientOnlyProxy.java|123|168|bio.gilly.mymod.simpleBlock.StartupOnlyClient|class|bio.gilly.mymod.simpleBlock.StartupOnlyClient
-      @|bio/gilly/mymod/ClientOnlyProxy.java|169|186|preInitClientOnly|method|bio.gilly.mymod.simpleBlock.StartupOnlyClient|preInitClientOnly|()V
+      @|bio/gilly/mymod/ClientOnlyProxy.java|123|168|bio.gilly.mymod.simpleBlock.StartupClientOnly|class|bio.gilly.mymod.simpleBlock.StartupClientOnly
+      @|bio/gilly/mymod/ClientOnlyProxy.java|169|186|preInitClientOnly|method|bio.gilly.mymod.simpleBlock.StartupClientOnly|preInitClientOnly|()V
+      @|bio/gilly/mymod/ClientOnlyProxy.java|192|238|bio.gilly.mymod.partialBlock.StartupClientOnly|class|bio.gilly.mymod.partialBlock.StartupClientOnly
+      @|bio/gilly/mymod/ClientOnlyProxy.java|239|256|preInitClientOnly|method|bio.gilly.mymod.partialBlock.StartupClientOnly|preInitClientOnly|()V
    Method End: preInit()V
    Method Start: init()V
-      @|bio/gilly/mymod/ClientOnlyProxy.java|208|212|init|method|bio.gilly.mymod.CommonProxy|init|()V
-      @|bio/gilly/mymod/ClientOnlyProxy.java|225|229|init|method|bio.gilly.mymod.CommonProxy|init|()V
-      @|bio/gilly/mymod/ClientOnlyProxy.java|235|280|bio.gilly.mymod.simpleBlock.StartupOnlyClient|class|bio.gilly.mymod.simpleBlock.StartupOnlyClient
-      @|bio/gilly/mymod/ClientOnlyProxy.java|281|295|initClientOnly|method|bio.gilly.mymod.simpleBlock.StartupOnlyClient|initClientOnly|()V
+      @|bio/gilly/mymod/ClientOnlyProxy.java|278|282|init|method|bio.gilly.mymod.CommonProxy|init|()V
+      @|bio/gilly/mymod/ClientOnlyProxy.java|295|299|init|method|bio.gilly.mymod.CommonProxy|init|()V
+      @|bio/gilly/mymod/ClientOnlyProxy.java|305|350|bio.gilly.mymod.simpleBlock.StartupClientOnly|class|bio.gilly.mymod.simpleBlock.StartupClientOnly
+      @|bio/gilly/mymod/ClientOnlyProxy.java|351|365|initClientOnly|method|bio.gilly.mymod.simpleBlock.StartupClientOnly|initClientOnly|()V
+      @|bio/gilly/mymod/ClientOnlyProxy.java|371|417|bio.gilly.mymod.partialBlock.StartupClientOnly|class|bio.gilly.mymod.partialBlock.StartupClientOnly
+      @|bio/gilly/mymod/ClientOnlyProxy.java|418|432|initClientOnly|method|bio.gilly.mymod.partialBlock.StartupClientOnly|initClientOnly|()V
    Method End: init()V
    Method Start: postInit()V
-      @|bio/gilly/mymod/ClientOnlyProxy.java|317|325|postInit|method|bio.gilly.mymod.CommonProxy|postInit|()V
-      @|bio/gilly/mymod/ClientOnlyProxy.java|338|346|postInit|method|bio.gilly.mymod.CommonProxy|postInit|()V
-      @|bio/gilly/mymod/ClientOnlyProxy.java|352|397|bio.gilly.mymod.simpleBlock.StartupOnlyClient|class|bio.gilly.mymod.simpleBlock.StartupOnlyClient
-      @|bio/gilly/mymod/ClientOnlyProxy.java|398|416|postInitClientOnly|method|bio.gilly.mymod.simpleBlock.StartupOnlyClient|postInitClientOnly|()V
+      @|bio/gilly/mymod/ClientOnlyProxy.java|454|462|postInit|method|bio.gilly.mymod.CommonProxy|postInit|()V
+      @|bio/gilly/mymod/ClientOnlyProxy.java|475|483|postInit|method|bio.gilly.mymod.CommonProxy|postInit|()V
+      @|bio/gilly/mymod/ClientOnlyProxy.java|489|534|bio.gilly.mymod.simpleBlock.StartupClientOnly|class|bio.gilly.mymod.simpleBlock.StartupClientOnly
+      @|bio/gilly/mymod/ClientOnlyProxy.java|535|553|postInitClientOnly|method|bio.gilly.mymod.simpleBlock.StartupClientOnly|postInitClientOnly|()V
+      @|bio/gilly/mymod/ClientOnlyProxy.java|559|605|bio.gilly.mymod.partialBlock.StartupClientOnly|class|bio.gilly.mymod.partialBlock.StartupClientOnly
+      @|bio/gilly/mymod/ClientOnlyProxy.java|606|624|postInitClientOnly|method|bio.gilly.mymod.partialBlock.StartupClientOnly|postInitClientOnly|()V
    Method End: postInit()V
    Method Start: isDedicatedServer()Z
-      @|bio/gilly/mymod/ClientOnlyProxy.java|441|458|isDedicatedServer|method|bio.gilly.mymod.CommonProxy|isDedicatedServer|()Z
+      @|bio/gilly/mymod/ClientOnlyProxy.java|649|666|isDedicatedServer|method|bio.gilly.mymod.CommonProxy|isDedicatedServer|()Z
    Method End: isDedicatedServer()Z
 Class End  : bio.gilly.mymod.ClientOnlyProxy
 endProcessing "bio/gilly/mymod/ClientOnlyProxy.java"
 
-startProcessing "bio/gilly/mymod/CommonProxy.java" md5: b5d33f1ee0925110fafdce9a3310be40
-Cache Hit!
+startProcessing "bio/gilly/mymod/CommonProxy.java" md5: fcb46e62faa78c287795aca0e84118a6
 @|bio/gilly/mymod/CommonProxy.java|8|23|bio.gilly.mymod|package|bio.gilly.mymod|(file)
 Class Start: bio.gilly.mymod.CommonProxy
    @|bio/gilly/mymod/CommonProxy.java|48|59|CommonProxy|class|bio.gilly.mymod.CommonProxy
@@ -39,19 +43,25 @@ Class Start: bio.gilly.mymod.CommonProxy
       @|bio/gilly/mymod/CommonProxy.java|75|82|preInit|method|bio.gilly.mymod.CommonProxy|preInit|()V
       @|bio/gilly/mymod/CommonProxy.java|89|130|bio.gilly.mymod.simpleBlock.StartupCommon|class|bio.gilly.mymod.simpleBlock.StartupCommon
       @|bio/gilly/mymod/CommonProxy.java|131|144|preInitCommon|method|bio.gilly.mymod.simpleBlock.StartupCommon|preInitCommon|()V
+      @|bio/gilly/mymod/CommonProxy.java|150|192|bio.gilly.mymod.partialBlock.StartupCommon|class|bio.gilly.mymod.partialBlock.StartupCommon
+      @|bio/gilly/mymod/CommonProxy.java|193|206|preInitCommon|method|bio.gilly.mymod.partialBlock.StartupCommon|preInitCommon|()V
    Method End: preInit()V
    Method Start: init()V
-      @|bio/gilly/mymod/CommonProxy.java|166|170|init|method|bio.gilly.mymod.CommonProxy|init|()V
-      @|bio/gilly/mymod/CommonProxy.java|177|218|bio.gilly.mymod.simpleBlock.StartupCommon|class|bio.gilly.mymod.simpleBlock.StartupCommon
-      @|bio/gilly/mymod/CommonProxy.java|219|229|initCommon|method|bio.gilly.mymod.simpleBlock.StartupCommon|initCommon|()V
+      @|bio/gilly/mymod/CommonProxy.java|228|232|init|method|bio.gilly.mymod.CommonProxy|init|()V
+      @|bio/gilly/mymod/CommonProxy.java|239|280|bio.gilly.mymod.simpleBlock.StartupCommon|class|bio.gilly.mymod.simpleBlock.StartupCommon
+      @|bio/gilly/mymod/CommonProxy.java|281|291|initCommon|method|bio.gilly.mymod.simpleBlock.StartupCommon|initCommon|()V
+      @|bio/gilly/mymod/CommonProxy.java|297|339|bio.gilly.mymod.partialBlock.StartupCommon|class|bio.gilly.mymod.partialBlock.StartupCommon
+      @|bio/gilly/mymod/CommonProxy.java|340|350|initCommon|method|bio.gilly.mymod.partialBlock.StartupCommon|initCommon|()V
    Method End: init()V
    Method Start: postInit()V
-      @|bio/gilly/mymod/CommonProxy.java|251|259|postInit|method|bio.gilly.mymod.CommonProxy|postInit|()V
-      @|bio/gilly/mymod/CommonProxy.java|266|307|bio.gilly.mymod.simpleBlock.StartupCommon|class|bio.gilly.mymod.simpleBlock.StartupCommon
-      @|bio/gilly/mymod/CommonProxy.java|308|322|postInitCommon|method|bio.gilly.mymod.simpleBlock.StartupCommon|postInitCommon|()V
+      @|bio/gilly/mymod/CommonProxy.java|372|380|postInit|method|bio.gilly.mymod.CommonProxy|postInit|()V
+      @|bio/gilly/mymod/CommonProxy.java|387|428|bio.gilly.mymod.simpleBlock.StartupCommon|class|bio.gilly.mymod.simpleBlock.StartupCommon
+      @|bio/gilly/mymod/CommonProxy.java|429|443|postInitCommon|method|bio.gilly.mymod.simpleBlock.StartupCommon|postInitCommon|()V
+      @|bio/gilly/mymod/CommonProxy.java|449|491|bio.gilly.mymod.partialBlock.StartupCommon|class|bio.gilly.mymod.partialBlock.StartupCommon
+      @|bio/gilly/mymod/CommonProxy.java|492|506|postInitCommon|method|bio.gilly.mymod.partialBlock.StartupCommon|postInitCommon|()V
    Method End: postInit()V
    Method Start: isDedicatedServer()Z
-      @|bio/gilly/mymod/CommonProxy.java|356|373|isDedicatedServer|method|bio.gilly.mymod.CommonProxy|isDedicatedServer|()Z
+      @|bio/gilly/mymod/CommonProxy.java|540|557|isDedicatedServer|method|bio.gilly.mymod.CommonProxy|isDedicatedServer|()Z
    Method End: isDedicatedServer()Z
 Class End  : bio.gilly.mymod.CommonProxy
 endProcessing "bio/gilly/mymod/CommonProxy.java"
@@ -151,6 +161,129 @@ Class Start: bio.gilly.mymod.MyMod
 Class End  : bio.gilly.mymod.MyMod
 endProcessing "bio/gilly/mymod/MyMod.java"
 
+startProcessing "bio/gilly/mymod/partialBlock/PartialBlock.java" md5: 088b25b0bc5597f31c366c6a4993086d
+@|bio/gilly/mymod/partialBlock/PartialBlock.java|8|36|bio.gilly.mymod.partialBlock|package|bio.gilly.mymod.partialBlock|(file)
+Class Start: bio.gilly.mymod.partialBlock.PartialBlock
+   @|bio/gilly/mymod/partialBlock/PartialBlock.java|544|556|PartialBlock|class|bio.gilly.mymod.partialBlock.PartialBlock
+   @|bio/gilly/mymod/partialBlock/PartialBlock.java|565|570|Block|class|net.minecraft.block.Block
+   Method Start: PartialBlock()V
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|581|593|PartialBlock|method|bio.gilly.mymod.partialBlock.PartialBlock|PartialBlock|()V
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|606|614|Material|class|net.minecraft.block.material.Material
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|615|619|ROCK|field|net.minecraft.block.material.Material|ROCK
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|629|643|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|644|656|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|657|672|BUILDING_BLOCKS|field|net.minecraft.creativetab.CreativeTabs|BUILDING_BLOCKS
+   Method End: PartialBlock()V
+   Method Start: getBlockLayer()Lnet/minecraft/util/BlockRenderLayer;
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|682|690|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|691|695|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|696|702|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|712|728|BlockRenderLayer|class|net.minecraft.util.BlockRenderLayer
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|729|742|getBlockLayer|method|net.minecraft.block.Block|getBlockLayer|()Lnet/minecraft/util/BlockRenderLayer;
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|756|772|BlockRenderLayer|class|net.minecraft.util.BlockRenderLayer
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|773|778|SOLID|field|net.minecraft.util.BlockRenderLayer|SOLID
+   Method End: getBlockLayer()Lnet/minecraft/util/BlockRenderLayer;
+   Method Start: isOpaqueCube(Lnet/minecraft/block/state/IBlockState;)Z
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|837|839|bs|param|bio.gilly.mymod.partialBlock.PartialBlock|isOpaqueCube|(Lnet/minecraft/block/state/IBlockState;)Z|bs|0
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|787|795|Override|class|java.lang.Override
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|812|824|isOpaqueCube|method|net.minecraft.block.Block|isOpaqueCube|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|825|836|IBlockState|class|net.minecraft.block.state.IBlockState
+   Method End: isOpaqueCube(Lnet/minecraft/block/state/IBlockState;)Z
+   Method Start: isFullCube(Lnet/minecraft/block/state/IBlockState;)Z
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|914|916|bs|param|bio.gilly.mymod.partialBlock.PartialBlock|isFullCube|(Lnet/minecraft/block/state/IBlockState;)Z|bs|0
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|866|874|Override|class|java.lang.Override
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|891|901|isFullCube|method|net.minecraft.block.Block|isFullCube|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|902|913|IBlockState|class|net.minecraft.block.state.IBlockState
+   Method End: isFullCube(Lnet/minecraft/block/state/IBlockState;)Z
+   Method Start: getRenderType(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/EnumBlockRenderType;
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|1006|1008|bs|param|bio.gilly.mymod.partialBlock.PartialBlock|getRenderType|(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/EnumBlockRenderType;|bs|0
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|943|951|Override|class|java.lang.Override
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|960|979|EnumBlockRenderType|class|net.minecraft.util.EnumBlockRenderType
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|980|993|getRenderType|method|net.minecraft.block.Block|getRenderType|(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/EnumBlockRenderType;
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|994|1005|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|1021|1040|EnumBlockRenderType|class|net.minecraft.util.EnumBlockRenderType
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|1041|1046|MODEL|field|net.minecraft.util.EnumBlockRenderType|MODEL
+   Method End: getRenderType(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/EnumBlockRenderType;
+   Method Start: getCollisionBoundingBox(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|1122|1124|bs|param|bio.gilly.mymod.partialBlock.PartialBlock|getCollisionBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;|bs|0
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|1139|1141|ba|param|bio.gilly.mymod.partialBlock.PartialBlock|getCollisionBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;|ba|1
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|1152|1154|bp|param|bio.gilly.mymod.partialBlock.PartialBlock|getCollisionBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;|bp|2
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|1055|1063|Override|class|java.lang.Override
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|1072|1085|AxisAlignedBB|class|net.minecraft.util.math.AxisAlignedBB
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|1086|1109|getCollisionBoundingBox|method|net.minecraft.block.Block|getCollisionBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|1110|1121|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|1126|1138|IBlockAccess|class|net.minecraft.world.IBlockAccess
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|1143|1151|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|bio/gilly/mymod/partialBlock/PartialBlock.java|1167|1176|NULL_AABB|field|net.minecraft.block.Block|NULL_AABB
+   Method End: getCollisionBoundingBox(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;
+Class End  : bio.gilly.mymod.partialBlock.PartialBlock
+endProcessing "bio/gilly/mymod/partialBlock/PartialBlock.java"
+
+startProcessing "bio/gilly/mymod/partialBlock/StartupClientOnly.java" md5: f25a8f6e65f131eab1de9673d966683e
+@|bio/gilly/mymod/partialBlock/StartupClientOnly.java|8|36|bio.gilly.mymod.partialBlock|package|bio.gilly.mymod.partialBlock|(file)
+Class Start: bio.gilly.mymod.partialBlock.StartupClientOnly
+   @|bio/gilly/mymod/partialBlock/StartupClientOnly.java|177|194|StartupClientOnly|class|bio.gilly.mymod.partialBlock.StartupClientOnly
+   Method Start: preInitClientOnly()V
+      @|bio/gilly/mymod/partialBlock/StartupClientOnly.java|217|234|preInitClientOnly|method|bio.gilly.mymod.partialBlock.StartupClientOnly|preInitClientOnly|()V
+      @|bio/gilly/mymod/partialBlock/StartupClientOnly.java|241|262|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|bio/gilly/mymod/partialBlock/StartupClientOnly.java|295|316|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|bio/gilly/mymod/partialBlock/StartupClientOnly.java|394|405|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|bio/gilly/mymod/partialBlock/StartupClientOnly.java|406|436|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|bio/gilly/mymod/partialBlock/StartupClientOnly.java|437|450|StartupCommon|class|bio.gilly.mymod.partialBlock.StartupCommon
+      @|bio/gilly/mymod/partialBlock/StartupClientOnly.java|451|467|partialBlockItem|field|bio.gilly.mymod.partialBlock.StartupCommon|partialBlockItem
+   Method End: preInitClientOnly()V
+   Method Start: initClientOnly()V
+      @|bio/gilly/mymod/partialBlock/StartupClientOnly.java|544|558|initClientOnly|method|bio.gilly.mymod.partialBlock.StartupClientOnly|initClientOnly|()V
+   Method End: initClientOnly()V
+   Method Start: postInitClientOnly()V
+      @|bio/gilly/mymod/partialBlock/StartupClientOnly.java|584|602|postInitClientOnly|method|bio.gilly.mymod.partialBlock.StartupClientOnly|postInitClientOnly|()V
+   Method End: postInitClientOnly()V
+Class End  : bio.gilly.mymod.partialBlock.StartupClientOnly
+endProcessing "bio/gilly/mymod/partialBlock/StartupClientOnly.java"
+
+startProcessing "bio/gilly/mymod/partialBlock/StartupCommon.java" md5: 437cf6409b79ec6b61cb5eca607462b8
+@|bio/gilly/mymod/partialBlock/StartupCommon.java|8|36|bio.gilly.mymod.partialBlock|package|bio.gilly.mymod.partialBlock|(file)
+Class Start: bio.gilly.mymod.partialBlock.StartupCommon
+   @|bio/gilly/mymod/partialBlock/StartupCommon.java|153|166|StartupCommon|class|bio.gilly.mymod.partialBlock.StartupCommon
+   @|bio/gilly/mymod/partialBlock/StartupCommon.java|184|196|PartialBlock|class|bio.gilly.mymod.partialBlock.PartialBlock
+   @|bio/gilly/mymod/partialBlock/StartupCommon.java|184|196|PartialBlock|class|bio.gilly.mymod.partialBlock.PartialBlock
+   @|bio/gilly/mymod/partialBlock/StartupCommon.java|197|209|partialBlock|field|bio.gilly.mymod.partialBlock.StartupCommon|partialBlock|
+   @|bio/gilly/mymod/partialBlock/StartupCommon.java|226|235|ItemBlock|class|net.minecraft.item.ItemBlock
+   @|bio/gilly/mymod/partialBlock/StartupCommon.java|226|235|ItemBlock|class|net.minecraft.item.ItemBlock
+   @|bio/gilly/mymod/partialBlock/StartupCommon.java|236|252|partialBlockItem|field|bio.gilly.mymod.partialBlock.StartupCommon|partialBlockItem|
+   Method Start: preInitCommon()V
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|276|289|preInitCommon|method|bio.gilly.mymod.partialBlock.StartupCommon|preInitCommon|()V
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|296|308|partialBlock|field|bio.gilly.mymod.partialBlock.StartupCommon|partialBlock
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|312|324|PartialBlock|class|bio.gilly.mymod.partialBlock.PartialBlock
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|330|342|PartialBlock|class|bio.gilly.mymod.partialBlock.PartialBlock
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|345|363|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|402|414|partialBlock|field|bio.gilly.mymod.partialBlock.StartupCommon|partialBlock
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|415|430|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|465|480|ForgeRegistries|class|net.minecraftforge.fml.common.registry.ForgeRegistries
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|481|487|BLOCKS|field|net.minecraftforge.fml.common.registry.ForgeRegistries|BLOCKS
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|488|496|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|497|509|partialBlock|field|bio.gilly.mymod.partialBlock.StartupCommon|partialBlock
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|517|533|partialBlockItem|field|bio.gilly.mymod.partialBlock.StartupCommon|partialBlockItem
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|540|549|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|550|562|partialBlock|field|bio.gilly.mymod.partialBlock.StartupCommon|partialBlock
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|567|583|partialBlockItem|field|bio.gilly.mymod.partialBlock.StartupCommon|partialBlockItem
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|584|599|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|600|612|partialBlock|field|bio.gilly.mymod.partialBlock.StartupCommon|partialBlock
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|613|628|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|635|650|ForgeRegistries|class|net.minecraftforge.fml.common.registry.ForgeRegistries
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|651|656|ITEMS|field|net.minecraftforge.fml.common.registry.ForgeRegistries|ITEMS
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|657|665|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|666|682|partialBlockItem|field|bio.gilly.mymod.partialBlock.StartupCommon|partialBlockItem
+   Method End: preInitCommon()V
+   Method Start: initCommon()V
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|710|720|initCommon|method|bio.gilly.mymod.partialBlock.StartupCommon|initCommon|()V
+   Method End: initCommon()V
+   Method Start: postInitCommon()V
+      @|bio/gilly/mymod/partialBlock/StartupCommon.java|748|762|postInitCommon|method|bio.gilly.mymod.partialBlock.StartupCommon|postInitCommon|()V
+   Method End: postInitCommon()V
+Class End  : bio.gilly.mymod.partialBlock.StartupCommon
+endProcessing "bio/gilly/mymod/partialBlock/StartupCommon.java"
+
 startProcessing "bio/gilly/mymod/simpleBlock/SimpleBlock.java" md5: 9ff24bd32add76b125eb6e3639bf6c29
 Cache Hit!
 @|bio/gilly/mymod/simpleBlock/SimpleBlock.java|8|35|bio.gilly.mymod.simpleBlock|package|bio.gilly.mymod.simpleBlock|(file)
@@ -198,6 +331,28 @@ Class Start: bio.gilly.mymod.simpleBlock.SimpleBlock
 Class End  : bio.gilly.mymod.simpleBlock.SimpleBlock
 endProcessing "bio/gilly/mymod/simpleBlock/SimpleBlock.java"
 
+startProcessing "bio/gilly/mymod/simpleBlock/StartupClientOnly.java" md5: 17e117cd9d86ded2dde4bf0e23817fa5
+@|bio/gilly/mymod/simpleBlock/StartupClientOnly.java|8|35|bio.gilly.mymod.simpleBlock|package|bio.gilly.mymod.simpleBlock|(file)
+Class Start: bio.gilly.mymod.simpleBlock.StartupClientOnly
+   @|bio/gilly/mymod/simpleBlock/StartupClientOnly.java|176|193|StartupClientOnly|class|bio.gilly.mymod.simpleBlock.StartupClientOnly
+   Method Start: preInitClientOnly()V
+      @|bio/gilly/mymod/simpleBlock/StartupClientOnly.java|216|233|preInitClientOnly|method|bio.gilly.mymod.simpleBlock.StartupClientOnly|preInitClientOnly|()V
+      @|bio/gilly/mymod/simpleBlock/StartupClientOnly.java|240|261|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|bio/gilly/mymod/simpleBlock/StartupClientOnly.java|294|315|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|bio/gilly/mymod/simpleBlock/StartupClientOnly.java|392|403|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|bio/gilly/mymod/simpleBlock/StartupClientOnly.java|404|434|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|bio/gilly/mymod/simpleBlock/StartupClientOnly.java|435|448|StartupCommon|class|bio.gilly.mymod.simpleBlock.StartupCommon
+      @|bio/gilly/mymod/simpleBlock/StartupClientOnly.java|449|464|itemSimpleBlock|field|bio.gilly.mymod.simpleBlock.StartupCommon|itemSimpleBlock
+   Method End: preInitClientOnly()V
+   Method Start: initClientOnly()V
+      @|bio/gilly/mymod/simpleBlock/StartupClientOnly.java|541|555|initClientOnly|method|bio.gilly.mymod.simpleBlock.StartupClientOnly|initClientOnly|()V
+   Method End: initClientOnly()V
+   Method Start: postInitClientOnly()V
+      @|bio/gilly/mymod/simpleBlock/StartupClientOnly.java|581|599|postInitClientOnly|method|bio.gilly.mymod.simpleBlock.StartupClientOnly|postInitClientOnly|()V
+   Method End: postInitClientOnly()V
+Class End  : bio.gilly.mymod.simpleBlock.StartupClientOnly
+endProcessing "bio/gilly/mymod/simpleBlock/StartupClientOnly.java"
+
 startProcessing "bio/gilly/mymod/simpleBlock/StartupCommon.java" md5: a5769e066e4a6406db9eca01ca8db089
 Cache Hit!
 @|bio/gilly/mymod/simpleBlock/StartupCommon.java|8|35|bio.gilly.mymod.simpleBlock|package|bio.gilly.mymod.simpleBlock|(file)
@@ -241,27 +396,4 @@ Class Start: bio.gilly.mymod.simpleBlock.StartupCommon
    Method End: postInitCommon()V
 Class End  : bio.gilly.mymod.simpleBlock.StartupCommon
 endProcessing "bio/gilly/mymod/simpleBlock/StartupCommon.java"
-
-startProcessing "bio/gilly/mymod/simpleBlock/StartupOnlyClient.java" md5: f9367aba1af2d6803357e70d033b9d74
-Cache Hit!
-@|bio/gilly/mymod/simpleBlock/StartupOnlyClient.java|8|35|bio.gilly.mymod.simpleBlock|package|bio.gilly.mymod.simpleBlock|(file)
-Class Start: bio.gilly.mymod.simpleBlock.StartupOnlyClient
-   @|bio/gilly/mymod/simpleBlock/StartupOnlyClient.java|176|193|StartupOnlyClient|class|bio.gilly.mymod.simpleBlock.StartupOnlyClient
-   Method Start: preInitClientOnly()V
-      @|bio/gilly/mymod/simpleBlock/StartupOnlyClient.java|216|233|preInitClientOnly|method|bio.gilly.mymod.simpleBlock.StartupOnlyClient|preInitClientOnly|()V
-      @|bio/gilly/mymod/simpleBlock/StartupOnlyClient.java|240|261|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
-      @|bio/gilly/mymod/simpleBlock/StartupOnlyClient.java|294|315|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
-      @|bio/gilly/mymod/simpleBlock/StartupOnlyClient.java|392|403|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
-      @|bio/gilly/mymod/simpleBlock/StartupOnlyClient.java|404|434|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
-      @|bio/gilly/mymod/simpleBlock/StartupOnlyClient.java|435|448|StartupCommon|class|bio.gilly.mymod.simpleBlock.StartupCommon
-      @|bio/gilly/mymod/simpleBlock/StartupOnlyClient.java|449|464|itemSimpleBlock|field|bio.gilly.mymod.simpleBlock.StartupCommon|itemSimpleBlock
-   Method End: preInitClientOnly()V
-   Method Start: initClientOnly()V
-      @|bio/gilly/mymod/simpleBlock/StartupOnlyClient.java|541|555|initClientOnly|method|bio.gilly.mymod.simpleBlock.StartupOnlyClient|initClientOnly|()V
-   Method End: initClientOnly()V
-   Method Start: postInitClientOnly()V
-      @|bio/gilly/mymod/simpleBlock/StartupOnlyClient.java|588|606|postInitClientOnly|method|bio.gilly.mymod.simpleBlock.StartupOnlyClient|postInitClientOnly|()V
-   Method End: postInitClientOnly()V
-Class End  : bio.gilly.mymod.simpleBlock.StartupOnlyClient
-endProcessing "bio/gilly/mymod/simpleBlock/StartupOnlyClient.java"
 

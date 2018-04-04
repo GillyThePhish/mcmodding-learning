@@ -1,11 +1,9 @@
 Symbol range map extraction starting
-Processing 7 files
-startProcessing "bio/gilly/mymod/ClientOnlyProxy.java" md5: 39a757adb00c207211b10b79ca31aaf3
-Cache Hit!
+Processing 10 files
+startProcessing "bio/gilly/mymod/ClientOnlyProxy.java" md5: a84b5dd291c4621acc0e9e7a836a37bc
 endProcessing "bio/gilly/mymod/ClientOnlyProxy.java"
 
-startProcessing "bio/gilly/mymod/CommonProxy.java" md5: b5d33f1ee0925110fafdce9a3310be40
-Cache Hit!
+startProcessing "bio/gilly/mymod/CommonProxy.java" md5: fcb46e62faa78c287795aca0e84118a6
 endProcessing "bio/gilly/mymod/CommonProxy.java"
 
 startProcessing "bio/gilly/mymod/DedicatedServerProxy.java" md5: d33127df4f5c48f74d9cf4fe0c2890dd
@@ -16,15 +14,23 @@ startProcessing "bio/gilly/mymod/MyMod.java" md5: 2edcf0d40297eef5dd450999a5ac7b
 Cache Hit!
 endProcessing "bio/gilly/mymod/MyMod.java"
 
+startProcessing "bio/gilly/mymod/partialBlock/PartialBlock.java" md5: 088b25b0bc5597f31c366c6a4993086d
+endProcessing "bio/gilly/mymod/partialBlock/PartialBlock.java"
+
+startProcessing "bio/gilly/mymod/partialBlock/StartupClientOnly.java" md5: f25a8f6e65f131eab1de9673d966683e
+endProcessing "bio/gilly/mymod/partialBlock/StartupClientOnly.java"
+
+startProcessing "bio/gilly/mymod/partialBlock/StartupCommon.java" md5: 437cf6409b79ec6b61cb5eca607462b8
+endProcessing "bio/gilly/mymod/partialBlock/StartupCommon.java"
+
 startProcessing "bio/gilly/mymod/simpleBlock/SimpleBlock.java" md5: 9ff24bd32add76b125eb6e3639bf6c29
 Cache Hit!
 endProcessing "bio/gilly/mymod/simpleBlock/SimpleBlock.java"
 
+startProcessing "bio/gilly/mymod/simpleBlock/StartupClientOnly.java" md5: 17e117cd9d86ded2dde4bf0e23817fa5
+endProcessing "bio/gilly/mymod/simpleBlock/StartupClientOnly.java"
+
 startProcessing "bio/gilly/mymod/simpleBlock/StartupCommon.java" md5: a5769e066e4a6406db9eca01ca8db089
 Cache Hit!
 endProcessing "bio/gilly/mymod/simpleBlock/StartupCommon.java"
-
-startProcessing "bio/gilly/mymod/simpleBlock/StartupOnlyClient.java" md5: f9367aba1af2d6803357e70d033b9d74
-Cache Hit!
-endProcessing "bio/gilly/mymod/simpleBlock/StartupOnlyClient.java"
 
